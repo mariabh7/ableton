@@ -1,0 +1,545 @@
+body{
+    margin: 0 ;
+    font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.header-abl{
+    padding: 1rem 2rem ;
+}
+header{
+    display: flex;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    
+
+    border-bottom: 1px solid rgb(200, 200, 200) ;
+}
+.ableton-l{
+    display: flex;
+    gap: 2rem;
+}
+.svg-ab svg{
+    margin-top: 1px ;
+}
+.svg-ab{
+    column-gap: 0.5rem;
+    display: flex;
+}
+.abl-links{
+    display: flex;
+    gap: 3rem;
+    margin: 0;
+    padding: 0;
+}
+header li {
+    list-style-type: none;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.sub{
+    margin: 0;
+    display: flex;
+    gap: 1rem
+}
+.try{
+    color:  rgb(0, 0, 255);
+}
+.two-link{
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
+.more-links li{
+    list-style-type: none;
+}
+.red-link{
+    text-decoration: none;
+    color: rgb(250, 104, 104);
+    font-weight: bold;     
+}
+.job{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;  
+}
+/* intro infos to ableton */
+.intro-to-abl{
+    margin: 0rem 9rem;
+
+}
+.img-music{
+   margin: 0;
+}
+.img-music img{
+    height: 31.88rem;
+    width: 99%;
+}
+.text{
+    padding: 7rem 10rem 5rem ;
+}
+.what-to-do{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+span{
+    color: rgb(0, 0, 255);
+}
+.course{
+    font-size: 1.15rem;
+    font-weight: lighter;
+}
+/* pictures div part 1 */
+.pictures1{
+    height: 780px;
+    position: relative;
+}
+.pics{
+    margin: 3rem 0 0rem 5rem;  
+}
+.yellow-background{
+    position: relative;
+    float: right;
+    height: 790px;
+    width: 750px;
+    background-color: rgb(251, 255, 167);
+}
+.pic1{
+    left: 9rem;
+    top: 13rem;
+    position: absolute;
+    width: 70%;
+}
+.pic1-1{   
+width: 100%;
+}
+.pic2{
+    top: 7rem;
+    left: 5rem;
+    position: absolute;
+    width: 44%; 
+}
+.pic2-2{
+    width: 100%;
+}
+/* another task */
+.text2{ 
+   padding: 7rem 19rem 4rem;
+}
+.img-man{
+    padding: 7rem 0;
+    width: 105%;
+}
+.why{
+    font-weight: bolder;
+    margin: 0;
+}
+.img-man video{
+    width: 100%;
+}
+.pics2{
+    position: relative;
+    height: 900px;
+    margin: 3rem 5rem 4rem 0;  
+}
+.green-d{
+    display: inline;
+    float: left;
+    position: relative;
+    height: 900px;
+    width: 800px;
+    background-color:  rgb(182, 255, 192);
+}
+.learn-ab, .abl-pic2{
+
+  top: 6rem;
+  right: 8rem;
+  left: 3rem;
+    position: absolute;
+    width: 60%;
+}
+.learn-ab img {
+    width: 100%;
+}
+.abl-pic2{
+    top: 30rem;
+}
+.abl-pic2 img {
+    width: 100%;
+}
+.help-st{
+    top : 6rem;
+    left: 40rem;
+   position: absolute;
+   width: 50%;
+}
+.help-st img {
+    height: 700px;
+    width: 100%;
+}
+.text4{
+    padding: 5rem 19rem 4rem;  
+}
+.studio-lb{
+    margin: 0rem 6rem;
+}
+.makers-img{
+    height: 700px;
+    width: 100%;
+}
+.makers-img img{
+    height: 600px;
+    width: 100%;
+}
+.makers-p{
+    margin: 0;
+    font-weight: bolder;
+}
+.text5{
+    padding: 2rem 19rem 4rem;
+}
+.purple-d{
+    margin: auto;
+    position: relative;
+    background-color:rgb(213, 179, 255);
+    height: 800px;
+    width: 800px;
+}
+.pics3{
+    position: relative;
+    margin: 3rem 0rem 4rem 5rem ;
+}
+.study-1{
+    left: 41.5rem;
+   bottom: 15rem;
+    float: right;
+   position: absolute;
+   width: 50%;
+}
+.study-1 img{
+    width: 100%;
+}
+.study-2{
+    position: absolute;
+    bottom: 16rem;
+    width: 40%;
+}
+.study-2 img{
+    width: 100%;
+}
+.text6{
+    padding: 1rem 19rem 4rem;   
+}
+.blue-d{
+    margin:5rem 9rem 4rem ;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0;
+}
+.text-blue{
+    height: 23rem;
+    padding: 5rem;
+    background-color: #b1c5ff;
+}
+
+.see-more{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:  rgb(0, 0, 255);
+}
+.last-img{
+    height: 200%;
+    width: 200%;
+}
+.last-img img{
+    height: 33rem;
+    width: 100%;
+}
+.last-part{
+    margin-top: 1rem;
+    border-top: 1px solid rgb(200, 200, 200) ;  
+}
+footer{
+    padding: 4rem 4rem 4rem 9rem;
+}
+footer h1{
+    margin: 0;
+    font-size: 3rem;
+}
+.footer-links1{
+    display: flex;
+    gap: 9rem;
+    margin: 2rem 0;
+}
+.ft-ul{
+    padding: 0;
+    margin: 0;
+}
+.ft-link{
+    list-style-type: none;
+    margin: 0.6rem 0;
+}
+.ft-r{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.instagram{
+    text-decoration: none;
+    background-color: rgb(255, 146, 92);
+}
+.footer-social{
+    margin: 0;
+   padding: 0;
+    display: flex;
+    gap: 0.8rem;
+}
+.social-media{
+    opacity: .6;
+    padding: 0.3rem 0.3rem 0;
+    list-style-type: none;
+}
+.social-media:hover{
+    opacity: 1;
+    transition:  0.5s ease-out;
+}
+
+.facebook{
+    padding-left: 0.2rem;
+ background-color: rgb(61, 102, 250);
+}
+.twitter{
+    padding: 0.3rem 0.3rem 0;
+    background-color:rgb(98, 167, 246) ;
+}
+.instagram{
+    text-decoration: none;
+    background-color: rgb(253, 137, 79);
+}
+.youtube{
+    padding: 0.3rem 0.3rem 0;
+    background-color: rgb(204, 13, 13);
+}
+.ft-link2{
+    list-style-type: none;
+    margin: 0.3rem 0;
+}
+.ft-login{
+    margin-left: 1rem;
+}
+.log-in-p{
+    margin: 0.7rem 0;
+    font-weight: bolder;
+}
+form{
+    display: flex;
+    gap: 0;
+}
+.email{
+    margin: 0;
+    outline: 0;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    padding: 0.6rem 6rem 0.6rem 0.6rem;  
+}
+.sign-up{
+    outline: 0;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 255);
+    padding: 0.5rem 1rem;
+    background-color: rgb(0, 0, 255);
+}
+.footer-links2{
+    display: flex;
+    gap: 7rem;
+}
+.ft-links4{
+    margin-right: 6rem;
+}
+.ft-title{
+    font-weight: bolder;
+}
+h4{
+  margin-bottom: 0.7rem;  
+}
+select{
+    outline: none;
+    border: 1px solid  rgb(235, 235, 235);
+    background-color:  rgb(235, 235, 235) ;
+}
+.language{
+    padding: 0.2rem 1rem 0.2rem 0.2rem;
+}
+.country{
+    padding: 0.2rem 4rem 0.2rem 0.2rem;
+}
+.ft-last{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.more-ft-links{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+.last-l{
+    list-style-type: none;
+    font-weight: bolder;
+}
+.logo{
+    display: flex;
+    gap: 0.5rem;
+}
+.made-in{
+    font-weight: bolder;
+}
+@media (max-width:900px){
+    .eader-abl{
+        padding: 1rem ;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .try{ 
+        display: none;
+    }
+    .intro-to-abl{
+        margin: 0 1rem;
+    }
+    .text{
+        padding: 2rem 1rem;
+    }
+    .img-music img{
+      height: 50%;
+        width: 100%;
+    }
+    .pictures1{
+        height: 780px;
+        position: relative;
+    }
+    .pics{
+        margin: 3rem 0; 
+    }
+    .yellow-background{
+        position: relative;
+        height: 450px;
+        width: 100%;
+        background-color: rgb(251, 255, 167);
+    }
+    .pic1{
+        left: 2rem;
+        top: 6rem;
+        position: absolute;
+        width: 80%;
+    }
+    .pic1-1{   
+        width: 100%;
+    }
+    .pic2{
+        display: none;
+    }
+    .pictures1{
+        height: 740px;
+    }
+    .text2{
+        padding: 0 1rem;
+    }
+    .img-man{
+        padding: 2rem 0;
+    }
+    .pics2{
+        margin: 1rem 0;
+    }
+   .green-d{
+        display: inline;
+        position: relative;
+        height: 50%;
+        width: 100%;
+        background-color:  rgb(182, 255, 192);
+    }
+    .learn-ab, .abl-pic2{
+        top: 3rem;
+        right: 3rem;
+        left: 3rem;
+        position: absolute;
+        width: 60%;
+     }
+     .learn-ab img {
+        width: 100%;
+    }
+    .abl-pic2{
+        top: 15rem;
+    }
+    .help-st{
+        display: none;
+    }
+    .text4, .text5, .text6{
+        padding: 1rem;
+    }
+    .studio-lb{
+        margin: 1rem;
+    }
+    .makers-img{
+        height: 100%;
+        width: 100%;
+    }
+    .makers-img img{
+        height:50% ;
+        width: 100%;
+    }
+    .pics3{
+        margin: 1rem 0;
+    }
+    .purple-d{
+        height: 450px;
+        width: 100%;
+    }
+    .study-1{
+        left: 4rem;
+       top: 15rem;
+       position: absolute;
+       width: 60%;
+    }
+    .study-1 img{
+        width: 100%;
+    }
+    .study-2{
+        position: absolute;
+        left: 4rem;
+        bottom: 16rem;
+        width: 60%;
+    }
+    .study-2 img{
+        width: 100%;
+    }
+    .blue-d{
+        margin: 1rem 0;
+        display: block;
+    }
+    .text-blue{
+        padding: 1rem 3rem;
+    }
+    .last-img{
+        height: 50%;
+        width: 100%;
+    }
+    footer{
+        padding: 1rem;
+    }
+    .footer-links1, .footer-links2{
+        display: block;
+    }
+    .ft-links1, .ft-links2, .ft-login{
+        margin-top: 2rem;
+    }
+    .ft-login{
+        margin-left: 0;
+    }
+    .more-ft-links{
+        display: none;
+    }
+}
